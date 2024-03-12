@@ -1,5 +1,11 @@
 Предсказания локаций снятия наличных в банкоматах на основе транзакций клиентов банка.
 
+Использую две метрики:
+
+- Метрика соревнования как в задании — Mean Binary Cross Entropy;
+
+- И для сравнения другая Метрика  — Mean Binary Cross Entropy.
+
 Данные родные:
 
 !cd /content && wget https://storage.yandexcloud.net/ds-ods/files/data/docs/competitions/DataFusion2024/Data/geo/hexses_target.lst
